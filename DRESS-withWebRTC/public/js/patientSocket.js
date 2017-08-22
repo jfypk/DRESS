@@ -2,9 +2,9 @@ var socket = io();
 
 //CHANGE FILE TO CORRECT AUDIO
 var shirtInstructions = new Audio("audio/test.mp3");
-var pantsInstructions = new Audio("audio/test.mp3");
-var socksInstructions = new Audio("audio/test.mp3");
-var shoesInstructions = new Audio("audio/test.mp3");
+var pantsInstructions = new Audio("audio/test2.mp3");
+var socksInstructions = new Audio("audio/test3.mp3");
+var shoesInstructions = new Audio("audio/woohoo.mp3");
 
 socket.on('broadcast',function(data){
 

@@ -6,17 +6,14 @@ var webrtc = new SimpleWebRTC({
 });
 
 webrtc.on('connectionReady', function(sessionId) {
-    webrtc.createRoom('DRESS-cam1', function() {
-    console.log('cam1 started');
-    });
-
-    //makes the caretaker invisible.
-    webrtc.mute();
-    webrtc.pauseVideo();
+    //initialization code here    
 });
 
  webrtc.on('readyToCall', function () {
-	webrtc.joinRoom('cam1 started');
+	console.log("reached index ready to call");
+    webrtc.joinRoom('cam1');
+    webrtc.mute();
+    // webrtc.pauseVideo();
  });
 
 webrtc.on('createdPeer', function (peer) {

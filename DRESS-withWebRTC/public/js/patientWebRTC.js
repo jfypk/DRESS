@@ -13,7 +13,7 @@ var webrtc = new SimpleWebRTC({
 
 
  webrtc.on('readyToCall', function () {
-	webrtc.joinRoom('DRESS-cam1');
+  webrtc.joinRoom('cam1');
  });
 
 webrtc.on('createdPeer', function (peer) {
