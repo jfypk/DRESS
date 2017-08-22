@@ -1,4 +1,5 @@
 
+var muted = true;
 var webrtc = new SimpleWebRTC({
 	// localVideoEl: 'localVideo',
 	remoteVideosEl: 'remotesVideos',
@@ -12,8 +13,6 @@ webrtc.on('connectionReady', function(sessionId) {
  webrtc.on('readyToCall', function () {
 	console.log("reached index ready to call");
     webrtc.joinRoom('cam1');
-    webrtc.mute();
-    // webrtc.pauseVideo();
  });
 
 webrtc.on('createdPeer', function (peer) {
@@ -21,7 +20,20 @@ webrtc.on('createdPeer', function (peer) {
 
 });
 
-
+function toggleTalk() {   
+    console.log('talk button pressed');
+    if(muted) {
+        console.log('caretaker unmuted');
+        //webrtc.unmute();
+        webrtc.setVolumeForAll(1.0);
+    } else {
+        console.log('caretaker muted');
+        //webrtc.mute();
+        webrtc.setVolumeForAll(0.0);
+        
+    }
+    muted = !muted;
+}
 
 webrtc.on('videoAdded', function (video, peer) {
     console.log('video added', peer);

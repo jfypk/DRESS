@@ -18,10 +18,7 @@ socket.on("shirt", shirt);
 
 function pants() {
     pantsInstructions.play();
-    
-    var x = document.getElementById("myAudio");
     var vid = document.getElementById("myVideo");
-      x.play();
       vid.play();
     document.getElementById('pants_').style.display = 'block';
     document.getElementById("myVideo").style.display = 'block';
