@@ -1,5 +1,6 @@
 
 var muted = true;
+var talkStatus;
 var webrtc = new SimpleWebRTC({
 	// localVideoEl: 'localVideo',
 	remoteVideosEl: 'remotesVideos',
@@ -13,6 +14,8 @@ webrtc.on('connectionReady', function(sessionId) {
  webrtc.on('readyToCall', function () {
 	console.log("reached index ready to call");
     webrtc.joinRoom('cam1');
+    webrtc.mute();
+    muted = true;
  });
 
 webrtc.on('createdPeer', function (peer) {
@@ -24,13 +27,13 @@ function toggleTalk() {
     console.log('talk button pressed');
     if(muted) {
         console.log('caretaker unmuted');
-        //webrtc.unmute();
-        webrtc.setVolumeForAll(1.0);
+        webrtc.unmute();
+        talkStatus=document.getElementById('talkStatus');
+        talkStatus.innerHTML = "Caretaker Unmuted"
     } else {
         console.log('caretaker muted');
-        //webrtc.mute();
-        webrtc.setVolumeForAll(0.0);
-        
+        webrtc.mute();
+        talkStatus.innerHTML = "Caretaker Muted"
     }
     muted = !muted;
 }
@@ -50,6 +53,31 @@ webrtc.on('videoAdded', function (video, peer) {
 
         remotes.appendChild(container);
     }
+    // show the ice connection state
+    if (peer && peer.pc) {
+        var connstate = document.createElement('div');
+        connstate.className = 'connectionstate';
+        container.appendChild(connstate);
+        peer.pc.on('iceConnectionStateChange', function (event) {
+            switch (peer.pc.iceConnectionState) {
+            case 'checking':
+                connstate.innerText = 'Connecting to peer...';
+                break;
+            case 'connected':
+            case 'completed': // on caller side
+                connstate.innerText = 'Connection established.';
+                break;
+            case 'disconnected':
+                connstate.innerText = 'Disconnected.';
+                break;
+            case 'failed':
+                break;
+            case 'closed':
+                connstate.innerText = 'Connection closed.';
+                break;
+            }
+        });
+    }
 });
 
 webrtc.on('videoRemoved', function (video, peer) {
@@ -59,5 +87,26 @@ webrtc.on('videoRemoved', function (video, peer) {
     if (remotes && el) {
         remotes.removeChild(el);
     }
+});
+
+webrtc.on('mute', function (data) { // show muted symbol
+    webrtc.getPeers(data.id).forEach(function (peer) {
+        if (data.name == 'audio') {
+            $('#videocontainer_' + webrtc.getDomId(peer) + ' .muted').show();
+        } else if (data.name == 'video') {
+            $('#videocontainer_' + webrtc.getDomId(peer) + ' .paused').show();
+            $('#videocontainer_' + webrtc.getDomId(peer) + ' video').hide();
+        }
+    });
+});
+webrtc.on('unmute', function (data) { // hide muted symbol
+    webrtc.getPeers(data.id).forEach(function (peer) {
+        if (data.name == 'audio') {
+            $('#videocontainer_' + webrtc.getDomId(peer) + ' .muted').hide();
+        } else if (data.name == 'video') {
+            $('#videocontainer_' + webrtc.getDomId(peer) + ' video').show();
+            $('#videocontainer_' + webrtc.getDomId(peer) + ' .paused').hide();
+        }
+    });
 });
 
