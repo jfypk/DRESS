@@ -1,0 +1,5 @@
+ - write Javascript for Encourage button
+    - It might be better to encourage/give feedback through the 
+- Get proper sound files for clothes wearing instructions
+- send message to patient in room that help is on the way on caretakerCancel
+- layout design

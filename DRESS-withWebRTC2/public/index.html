@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Caretakers's View</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://simplewebrtc.com/latest-v2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn-orig.socket.io/socket.io-1.7.3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+    <script src="js/indexSocket.js"></script>
+    <script src="js/indexWebRTC.js"></script>
+    <script src="js/indexButtonHandlers.js"></script>
+
+
+    <input class="imgBut" id="SHIRTbutton" type="submit" name="button" onclick="shirt();" value="SHIRT" />
+    <input class="imgBut" id="PANTSbutton" type="submit" name="button" onclick="pants();" value="PANTS" />
+    <input class="imgBut" id="SOCKSbutton" type="submit" name="button" onclick="socks();" value="SOCKS" />
+    <input class="imgBut" id="SHOESbutton" type="submit" name="button" onclick="shoes();" value="SHOES" />
+    <input class="talkButton" id="TALKbutton" type="submit" name="button" onclick="toggleTalk();" value="Unmute" />
+    <input class="praiseButton" id="PRAISEbutton" type="submit" name="button" onclick="praise();" value="Encourage" />
+    <p id="talkStatus">Caretaker Muted</p>
+    <img class="text" id="shirt_" src="img/shirt.png" style="display : none" />
+    <img class="text" id="pants_" src="img/pants.png" style="display : none" />
+    <img class="text" id="socks_" src="img/socks.png" style="display : none" />
+    <img class="text" id="shoes_" src="img/shoes.png" style="display : none" />
+
+    <div height="600" id="remotes"></div>
+
+</body>
+
+</html>

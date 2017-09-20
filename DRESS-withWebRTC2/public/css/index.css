@@ -1,0 +1,71 @@
+.imgBut {
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #efefef;
+    background-color: #1E1E1E;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #3D3D3D;
+    padding-top: : 10px;
+    margin-top: 20px;
+}
+
+.imgBut:hover {
+    background-color: #1E1E1E
+}
+
+.imgBut:active {
+    background-color: #1E1E1E;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.text {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.connectionstate {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    color: #fff
+}
+
+.muted .paused {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    color: #12acef;
+}
+
+.muted {
+    left: 0px;
+    bottom: 10%;
+    width: 100%;
+}
+
+.paused {
+    left: 0px;
+    top: 40%;
+    width: 100%;
+}
+
+#remotesVideos {
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border-radius: 15px;
+}
+
+#remoteVideos video {
+    height: 150px;
+}
+
+#localVideo {
+    height: 150px;
+}
