@@ -1,5 +1,8 @@
- - write Javascript for Encourage button
-    - It might be better to encourage/give feedback through the 
-- Get proper sound files for clothes wearing instructions
+- get the sound files to play on patient's end. 
+- Get proper sound files for clothes wearing instructions from Jeremy
+- hooking up the dresser with the wifi. 
+- making sure the caretaker will be able to choose which audio files to play.
+- documentation on how to connect to patient's screen
+- test multiple cameras. 2 - 3
 - send message to patient in room that help is on the way on caretakerCancel
-- layout design
+- layout design 

@@ -1,0 +1,41 @@
+Thu Sep 21 2017 13:43:36 GMT-0400 (EDT) --- Shirt button clicked
+Thu Sep 21 2017 13:43:37 GMT-0400 (EDT) --- Pants button clicked
+Thu Sep 21 2017 13:44:07 GMT-0400 (EDT) --- Unmute button pushed: Caretaker unmuted
+Thu Sep 21 2017 13:44:13 GMT-0400 (EDT) --- Mute button pushed: Caretaker muted
+Thu Sep 21 2017 13:44:13 GMT-0400 (EDT) --- Conversation summary: null
+Thu Sep 21 2017 13:45:15 GMT-0400 (EDT) --- praise button pushed
+Thu Sep 21 2017 13:45:23 GMT-0400 (EDT) --- Shoes button clicked
+Thu Sep 21 2017 13:45:24 GMT-0400 (EDT) --- Socks button clicked
+Thu Sep 21 2017 13:45:25 GMT-0400 (EDT) --- Pants button clicked
+Thu Sep 21 2017 13:45:41 GMT-0400 (EDT) --- Unmute button pushed: Caretaker unmuted
+Thu Sep 21 2017 13:45:57 GMT-0400 (EDT) --- Mute button pushed: Caretaker muted
+Thu Sep 21 2017 13:45:57 GMT-0400 (EDT) --- Conversation summary: told him to put on shoes
+Thu Sep 21 2017 13:46:46 GMT-0400 (EDT) --- Check In alert displayed
+Thu Sep 21 2017 13:47:05 GMT-0400 (EDT) --- Check In accepted
+Thu Sep 21 2017 13:48:03 GMT-0400 (EDT) --- Unmute button pushed: Caretaker unmuted
+Thu Sep 21 2017 13:48:05 GMT-0400 (EDT) --- Mute button pushed: Caretaker muted
+Thu Sep 21 2017 13:48:05 GMT-0400 (EDT) --- Conversation summary: abc
+Thu Sep 21 2017 13:50:06 GMT-0400 (EDT) --- Check In alert displayed
+Thu Sep 21 2017 13:50:09 GMT-0400 (EDT) --- Check In cancelled
+Thu Sep 21 2017 13:53:09 GMT-0400 (EDT) --- Check In alert displayed
+Thu Sep 21 2017 13:53:18 GMT-0400 (EDT) --- Check In cancelled
+Thu Sep 21 2017 13:56:18 GMT-0400 (EDT) --- Check In alert displayed
+Thu Sep 21 2017 13:56:22 GMT-0400 (EDT) --- Check In cancelled
+Thu Sep 21 2017 14:06:36 GMT-0400 (EDT) --- Check In alert displayed
+Thu Sep 21 2017 14:07:16 GMT-0400 (EDT) --- Check In cancelled
+Thu Sep 21 2017 14:08:15 GMT-0400 (EDT) --- Shirt button clicked
+Thu Sep 21 2017 14:09:37 GMT-0400 (EDT) --- Shirt button clicked
+Thu Sep 21 2017 14:10:16 GMT-0400 (EDT) --- Check In alert displayed
+Thu Sep 21 2017 14:10:37 GMT-0400 (EDT) --- Check In cancelled
+Thu Sep 21 2017 14:10:40 GMT-0400 (EDT) --- Shirt button clicked
+Thu Sep 21 2017 14:10:47 GMT-0400 (EDT) --- Shirt button clicked
+Thu Sep 21 2017 14:10:54 GMT-0400 (EDT) --- Pants button clicked
+Thu Sep 21 2017 14:11:05 GMT-0400 (EDT) --- Unmute button pushed: Caretaker unmuted
+Thu Sep 21 2017 14:11:24 GMT-0400 (EDT) --- Mute button pushed: Caretaker muted
+Thu Sep 21 2017 14:11:24 GMT-0400 (EDT) --- Conversation summary: repeated instructions
+Thu Sep 21 2017 14:13:53 GMT-0400 (EDT) --- Check In alert displayed
+Thu Sep 21 2017 14:20:07 GMT-0400 (EDT) --- Pants button clicked
+Thu Sep 21 2017 14:21:48 GMT-0400 (EDT) --- Check In alert displayed
+Thu Sep 21 2017 14:22:16 GMT-0400 (EDT) --- Check In cancelled
+Thu Sep 21 2017 14:25:16 GMT-0400 (EDT) --- Check In alert displayed
+Thu Sep 21 2017 14:25:19 GMT-0400 (EDT) --- Check In cancelled

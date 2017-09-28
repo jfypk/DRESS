@@ -1,0 +1,12 @@
+2013-4-23	14:13:13	Inside part of the shirt detected
+2013-4-23	14:13:19	Back side ID of the shirt detected
+2013-4-23	14:13:19	front side IDs of the shirt detected
+2013-4-23	14:13:28	Right arm of the shirt is worn
+2013-4-23	14:13:33	Incomplete dressing
+2013-4-23	14:14:10	Right arm of the shirt is worn
+2013-4-23	14:14:10	Left arm of the shirt is worn
+2013-4-23	14:14:10	Both arms of the shirt worn
+2013-4-23	14:14:15	Velcro Unevenly fastened
+2013-4-23	14:14:19	Wearing Shirt is complete
+
+ ding donding dong
