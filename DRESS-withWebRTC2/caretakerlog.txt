@@ -39,3 +39,86 @@ Thu Sep 21 2017 14:21:48 GMT-0400 (EDT) --- Check In alert displayed
 Thu Sep 21 2017 14:22:16 GMT-0400 (EDT) --- Check In cancelled
 Thu Sep 21 2017 14:25:16 GMT-0400 (EDT) --- Check In alert displayed
 Thu Sep 21 2017 14:25:19 GMT-0400 (EDT) --- Check In cancelled
+Thu Sep 28 2017 17:55:07 GMT-0400 (EDT) --- Shirt button clicked
+Thu Sep 28 2017 17:55:28 GMT-0400 (EDT) --- Pants button clicked
+Thu Sep 28 2017 17:57:16 GMT-0400 (EDT) --- Shirt button clicked
+Thu Sep 28 2017 17:57:36 GMT-0400 (EDT) --- Pants button clicked
+Thu Sep 28 2017 17:57:45 GMT-0400 (EDT) --- Shoes button clicked
+Thu Sep 28 2017 17:57:53 GMT-0400 (EDT) --- Unmute button pushed: Caretaker unmuted
+Thu Sep 28 2017 17:57:55 GMT-0400 (EDT) --- Check In alert displayed
+Thu Sep 28 2017 17:57:58 GMT-0400 (EDT) --- Check In cancelled
+Thu Sep 28 2017 17:58:35 GMT-0400 (EDT) --- Mute button pushed: Caretaker muted
+Thu Sep 28 2017 17:58:35 GMT-0400 (EDT) --- Conversation summary: Told the patient to put on his shirt
+Thu Sep 28 2017 18:00:20 GMT-0400 (EDT) --- Shirt button clicked
+Thu Sep 28 2017 18:01:34 GMT-0400 (EDT) --- Check In alert displayed
+Thu Sep 28 2017 18:02:09 GMT-0400 (EDT) --- Check In cancelled
+Thu Sep 28 2017 18:05:09 GMT-0400 (EDT) --- Check In alert displayed
+Thu Sep 28 2017 18:05:11 GMT-0400 (EDT) --- Check In accepted
+Mon Oct 02 2017 09:19:52 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 09:19:54 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 09:22:54 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 09:22:56 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 09:25:56 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 09:25:57 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 09:28:57 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 09:30:14 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 09:33:14 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 09:33:15 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 09:36:15 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 09:36:17 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 09:39:17 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 09:43:50 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 09:43:51 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 09:46:51 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 09:46:52 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 09:51:36 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 09:52:27 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 09:55:27 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 09:55:31 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 09:58:32 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 09:58:33 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 10:01:34 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 10:01:34 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 10:03:06 GMT-0400 (EDT) --- Shirt button clicked
+Mon Oct 02 2017 10:03:07 GMT-0400 (EDT) --- Socks button clicked
+Mon Oct 02 2017 10:03:08 GMT-0400 (EDT) --- Shoes button clicked
+Mon Oct 02 2017 10:06:33 GMT-0400 (EDT) --- Pants button clicked
+Mon Oct 02 2017 10:08:47 GMT-0400 (EDT) --- Pants button clicked
+Mon Oct 02 2017 10:08:49 GMT-0400 (EDT) --- Shirt button clicked
+Mon Oct 02 2017 10:09:20 GMT-0400 (EDT) --- Pants button clicked
+Mon Oct 02 2017 10:09:27 GMT-0400 (EDT) --- Pants button clicked
+Mon Oct 02 2017 10:11:13 GMT-0400 (EDT) --- Pants button clicked
+Mon Oct 02 2017 10:14:13 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 10:14:15 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 10:15:24 GMT-0400 (EDT) --- Pants button clicked
+Mon Oct 02 2017 10:15:25 GMT-0400 (EDT) --- Socks button clicked
+Mon Oct 02 2017 10:15:25 GMT-0400 (EDT) --- Pants button clicked
+Mon Oct 02 2017 10:15:26 GMT-0400 (EDT) --- Socks button clicked
+Mon Oct 02 2017 10:15:26 GMT-0400 (EDT) --- Pants button clicked
+Mon Oct 02 2017 10:15:28 GMT-0400 (EDT) --- Socks button clicked
+Mon Oct 02 2017 10:18:24 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 10:18:25 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 10:18:43 GMT-0400 (EDT) --- Shirt button clicked
+Mon Oct 02 2017 10:18:44 GMT-0400 (EDT) --- Pants button clicked
+Mon Oct 02 2017 10:18:44 GMT-0400 (EDT) --- Socks button clicked
+Mon Oct 02 2017 10:18:45 GMT-0400 (EDT) --- Shoes button clicked
+Mon Oct 02 2017 10:18:45 GMT-0400 (EDT) --- Socks button clicked
+Mon Oct 02 2017 10:18:46 GMT-0400 (EDT) --- Pants button clicked
+Mon Oct 02 2017 10:18:46 GMT-0400 (EDT) --- Shirt button clicked
+Mon Oct 02 2017 10:21:44 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 10:21:45 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 10:24:44 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 10:24:45 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 10:27:46 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 10:27:46 GMT-0400 (EDT) --- Check In cancelled
+Mon Oct 02 2017 10:30:21 GMT-0400 (EDT) --- Pants button clicked
+Mon Oct 02 2017 10:30:21 GMT-0400 (EDT) --- Socks button clicked
+Mon Oct 02 2017 10:30:22 GMT-0400 (EDT) --- Shoes button clicked
+Mon Oct 02 2017 10:30:23 GMT-0400 (EDT) --- Shirt button clicked
+Mon Oct 02 2017 10:30:24 GMT-0400 (EDT) --- Shoes button clicked
+Mon Oct 02 2017 10:30:24 GMT-0400 (EDT) --- Shoes button clicked
+Mon Oct 02 2017 10:30:25 GMT-0400 (EDT) --- Socks button clicked
+Mon Oct 02 2017 10:30:26 GMT-0400 (EDT) --- Shirt button clicked
+Mon Oct 02 2017 10:30:26 GMT-0400 (EDT) --- Pants button clicked
+Mon Oct 02 2017 10:30:46 GMT-0400 (EDT) --- Check In alert displayed
+Mon Oct 02 2017 10:30:47 GMT-0400 (EDT) --- Check In cancelled

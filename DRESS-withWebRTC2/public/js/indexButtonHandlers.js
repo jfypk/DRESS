@@ -1,54 +1,76 @@
 var startTime = 0;
+  var pantsInstructionsList;
+  var shirtInstructionsList;
+  var shoesInstructionsList;
+  var socksInstructionsList;
+
 
 function pants(){
-  var myPants = document.getElementById("pants_");
-  myPants.style.display = "block";
+  pantsInstructionsList = document.getElementById("pantsbuttons");
+  shirtInstructionsList = document.getElementById("shirtbuttons");
+  shoesInstructionsList = document.getElementById("shoesbuttons");
+  socksInstructionsList = document.getElementById("socksbuttons");
+  shirtInstructionsList.style.display = "none";
+  shoesInstructionsList.style.display = "none";
+  socksInstructionsList.style.display = "none";
+  pantsInstructionsList.style.display = "block";
+
   $.get("/pants", function(res){
       console.log("pants LED");
   });
-  window.setTimeout(function(){
-    document.getElementById("pants_").style.display = 'none';
-    socket.emit("pants");
-  }, 3000);
 }
+
 function socks(){
-  var mySocks = document.getElementById("socks_");
-  mySocks.style.display = "block";
+  pantsInstructionsList = document.getElementById("pantsbuttons");
+  shirtInstructionsList = document.getElementById("shirtbuttons");
+  shoesInstructionsList = document.getElementById("shoesbuttons");
+  socksInstructionsList = document.getElementById("socksbuttons");
+  shirtInstructionsList.style.display = "none";
+  shoesInstructionsList.style.display = "none";
+  socksInstructionsList.style.display = "block";
+  pantsInstructionsList.style.display = "none";
 
   $.get("/socks", function(res){
       console.log("socks LED");
   });
-  window.setTimeout(function(){
-    document.getElementById("socks_").style.display = 'none';
-    socket.emit("socks");
-  }, 3000);
 }
 
-function shirt(){
+function shirt() {
+  pantsInstructionsList = document.getElementById("pantsbuttons");
+  shirtInstructionsList = document.getElementById("shirtbuttons");
+  shoesInstructionsList = document.getElementById("shoesbuttons");
+  socksInstructionsList = document.getElementById("socksbuttons");
+  shirtInstructionsList.style.display = "block";
+  shoesInstructionsList.style.display = "none";
+  socksInstructionsList.style.display = "none";
+  pantsInstructionsList.style.display = "none";
 
-var myShirt = document.getElementById("shirt_");
-  myShirt.style.display = "block";
   $.get("/shirt", function(res){
-console.log("Shirt LED");
+    console.log("Shirt LED");
   });
-  window.setTimeout(function(){
-    document.getElementById('shirt_').style.display = 'none';
-    socket.emit("shirt");
-  }, 3000);
 };
 
-function shoes(){
+function shoes() {
+  pantsInstructionsList = document.getElementById("pantsbuttons");
+  shirtInstructionsList = document.getElementById("shirtbuttons");
+  shoesInstructionsList = document.getElementById("shoesbuttons");
+  socksInstructionsList = document.getElementById("socksbuttons");
+  shirtInstructionsList.style.display = "none";
+  shoesInstructionsList.style.display = "block";
+  socksInstructionsList.style.display = "none";
+  pantsInstructionsList.style.display = "none";
 
-var myShoes = document.getElementById("shoes_");
-  myShoes.style.display = "block";
-      $.get("/shoes", function(res){
-          console.log("shoes LED");
-      });
-  window.setTimeout(function(){
-    document.getElementById('shoes_').style.display = 'none';
-    socket.emit("shoes");
-  }, 3000);
+  $.get("/shoes", function(res){
+      console.log("shoes LED");
+  });
 };
+
+function sendInstruction(cloth, number){
+  var socketPhrase = cloth + number;
+  window.setTimeout(function(){
+    socket.emit(socketPhrase);
+  }, 3000); 
+}
 
 function praise() {
   //load audio
