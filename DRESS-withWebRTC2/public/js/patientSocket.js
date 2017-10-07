@@ -26,6 +26,8 @@ var shoesInstructionFile4 = new Audio("audio/woohoo.mp3");
 var shoesInstructionFile5 = new Audio("audio/woohoo.mp3");
 var shoesInstructionFile6 = new Audio("audio/woohoo.mp3");
 
+var checkInCancelAudio = new Audio("audio/woohoo.mp3");
+
 socket.on('broadcast', function(data) {
     console.log(data.description);
 });
@@ -58,6 +60,12 @@ socket.on("shirt3", shirtInstructions3);
 socket.on("shirt4", shirtInstructions4);
 socket.on("shirt5", shirtInstructions5);
 socket.on("shirt6", shirtInstructions6);
+
+socket.on("checkinCancel", caretakerComing);
+
+function caretakerComing() {
+    checkInCancelAudio.play();
+}
 
 function pants() {
     console.log('pants button pressed');

@@ -5,6 +5,10 @@ var webrtc = new SimpleWebRTC({
 	// localVideoEl: 'localVideo',
 	remoteVideosEl: 'remotesVideos',
 	autoRequestMedia: true,
+    media: {
+    audio: true,
+    video: false
+}
 });
 
 webrtc.on('connectionReady', function(sessionId) {

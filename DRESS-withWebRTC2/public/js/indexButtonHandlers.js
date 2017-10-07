@@ -89,4 +89,11 @@ function caretakerCheckIn() {
     }
 }
 
+function getVideoSources() {
+  var videoDevices = [];
+  socket.on("videoSent", function(data) {
+    console.log(data);
+  });
+}
+
 setInterval(caretakerCheckIn, 180000); //call caretakercheckin every 3 minutes

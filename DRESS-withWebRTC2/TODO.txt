@@ -1,7 +1,9 @@
 - Get proper sound files for socks and shoes
-- hooking up the dresser with the wifi. 
 - test multiple cameras. 2 - 3
-- send message to patient in room that help is on the way on caretakerCancel
+    - move the camera controls on patient page to the caretaker.
+
 - layout design 
 
 - documentation on how to connect to patient's screen
+    - put sound files in /assets folder, name them...
+    - hook up the Arduino file lines etc to the wifi and password. 
