@@ -1,7 +1,5 @@
-/*
- * Instantiate variables and modules
- */
-var IP = "192.168.2.7" //This is the Arduino IP. Get this from the MKR1000 code
+//This is the Arduino IP. Get this from the MKR1000 code
+var IP = "192.168.2.7" 
 
 //set these to the fiduciary numbers corresponding to the clothes
 var shirtFid = 31;
