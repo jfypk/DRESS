@@ -130,3 +130,10 @@ Sat Oct 07 2017 15:17:42 GMT-0400 (EDT) --- Check In alert displayed
 Sat Oct 07 2017 15:17:44 GMT-0400 (EDT) --- Check In cancelled
 Sat Oct 07 2017 15:34:20 GMT-0400 (EDT) --- Check In alert displayed
 Sat Oct 07 2017 15:34:22 GMT-0400 (EDT) --- Check In cancelled
+Tue Dec 19 2017 00:41:42 GMT-0500 (EST) --- Socks button clicked
+Tue Dec 19 2017 00:41:50 GMT-0500 (EST) --- Unmute button pushed: Caretaker unmuted
+Tue Dec 19 2017 00:41:54 GMT-0500 (EST) --- Mute button pushed: Caretaker muted
+Tue Dec 19 2017 00:41:54 GMT-0500 (EST) --- Conversation summary: asdfadsf
+Tue Dec 19 2017 00:42:54 GMT-0500 (EST) --- Shoes button clicked
+Tue Dec 19 2017 00:43:04 GMT-0500 (EST) --- Shirt button clicked
+Tue Dec 19 2017 00:43:15 GMT-0500 (EST) --- Socks button clicked

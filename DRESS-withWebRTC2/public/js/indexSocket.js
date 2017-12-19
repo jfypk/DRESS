@@ -30,7 +30,6 @@ var socket = io();
         $.get("/shirt", function(res){
 
         });
-        console.log("still happened");
     });
     document.getElementById('shirt_').style.display = 'block';
     window.setTimeout(function(){

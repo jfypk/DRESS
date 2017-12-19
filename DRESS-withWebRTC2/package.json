@@ -14,7 +14,7 @@
     "fs": "0.0.1-security",
     "https": "^1.0.0",
     "node-static": "^0.7.9",
-    "pem": "^1.9.4",
+    "pem": "^1.12.3",
     "requestify": "^0.2.5",
     "simplewebrtc": "^3.0.1",
     "socket.io": "^1.7.3",
