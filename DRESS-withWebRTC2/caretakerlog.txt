@@ -137,3 +137,32 @@ Tue Dec 19 2017 00:41:54 GMT-0500 (EST) --- Conversation summary: asdfadsf
 Tue Dec 19 2017 00:42:54 GMT-0500 (EST) --- Shoes button clicked
 Tue Dec 19 2017 00:43:04 GMT-0500 (EST) --- Shirt button clicked
 Tue Dec 19 2017 00:43:15 GMT-0500 (EST) --- Socks button clicked
+Wed Dec 20 2017 15:53:04 GMT-0500 (EST) --- Shirt button clicked
+Wed Dec 20 2017 15:53:05 GMT-0500 (EST) --- Pants button clicked
+Wed Dec 20 2017 15:53:06 GMT-0500 (EST) --- Shirt button clicked
+Wed Dec 20 2017 15:53:07 GMT-0500 (EST) --- Socks button clicked
+Wed Dec 20 2017 15:58:07 GMT-0500 (EST) --- Shirt button clicked
+Wed Dec 20 2017 15:58:11 GMT-0500 (EST) --- Check In alert displayed
+Wed Dec 20 2017 15:58:14 GMT-0500 (EST) --- Check In cancelled
+Wed Dec 20 2017 15:58:15 GMT-0500 (EST) --- Pants button clicked
+Wed Dec 20 2017 15:58:17 GMT-0500 (EST) --- Shirt button clicked
+Wed Dec 20 2017 15:58:18 GMT-0500 (EST) --- Pants button clicked
+Wed Dec 20 2017 15:58:19 GMT-0500 (EST) --- Socks button clicked
+Wed Dec 20 2017 15:58:20 GMT-0500 (EST) --- Shoes button clicked
+Wed Dec 20 2017 15:58:22 GMT-0500 (EST) --- Pants button clicked
+Wed Dec 20 2017 15:58:22 GMT-0500 (EST) --- Shirt button clicked
+Wed Dec 20 2017 15:58:41 GMT-0500 (EST) --- Pants button clicked
+Wed Dec 20 2017 15:58:53 GMT-0500 (EST) --- Socks button clicked
+Wed Dec 20 2017 15:58:57 GMT-0500 (EST) --- Unmute button pushed: Caretaker unmuted
+Wed Dec 20 2017 15:59:04 GMT-0500 (EST) --- Mute button pushed: Caretaker muted
+Wed Dec 20 2017 15:59:04 GMT-0500 (EST) --- Conversation summary: null
+Wed Dec 20 2017 15:59:07 GMT-0500 (EST) --- Unmute button pushed: Caretaker unmuted
+Wed Dec 20 2017 15:59:21 GMT-0500 (EST) --- Mute button pushed: Caretaker muted
+Wed Dec 20 2017 15:59:21 GMT-0500 (EST) --- Conversation summary: instructed to put on the shirt
+Wed Dec 20 2017 15:59:35 GMT-0500 (EST) --- Pants button clicked
+Wed Dec 20 2017 15:59:35 GMT-0500 (EST) --- Shirt button clicked
+Wed Dec 20 2017 16:00:28 GMT-0500 (EST) --- Socks button clicked
+Wed Dec 20 2017 16:00:28 GMT-0500 (EST) --- Shoes button clicked
+Wed Dec 20 2017 16:01:10 GMT-0500 (EST) --- Pants button clicked
+Wed Dec 20 2017 16:01:32 GMT-0500 (EST) --- Check In alert displayed
+Wed Dec 20 2017 16:02:04 GMT-0500 (EST) --- Check In cancelled

@@ -10,14 +10,16 @@
 #include <Adafruit_NeoPixel.h>
 
 /*
+ * Make sure you have Neopixels and Wifi101 libraries installed, along with the MKR1000 Board
  * This code controls the MKR-1000 arduino for the DRESS drawer system. 
  * Before you begin, please update the network SSID and password to match your
  * current network.
  */
 
-char ssid[] = "02mini";      //  your network SSID (name)
-char pass[] = "yourNetworkPassword";   // your network password
+char ssid[] = "xlab";      //  your network SSID (name)
+char pass[] = "";   // your network password
 int keyIndex = 0;                 // your network key Index number (needed only for WEP)
+
 int ledpin = 6;
 bool val = true;
 

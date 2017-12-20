@@ -1,7 +1,7 @@
 //Make sure that the IP variable matches the IP that is 
 //provided by the MKR1000. You can find this IP in the
 //Serial of the MKR1000. 
-var IP = "192.168.2.7"
+var IP = "192.168.1.116"
 
 var clog = 'caretakerlog.txt';
 var logmsg = "";
