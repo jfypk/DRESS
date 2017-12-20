@@ -22,7 +22,7 @@ Once the server is running, navigate to your browser and enter the following URL
 
 For the patient's view, enter:
 
-    https://localhost:3000/patient.html 
+    https://<ip address of server>:3000/patient.html 
 
 ToDo: 
 - Get proper sound files for socks and shoes. Update the location of these sound files in /Dress-withWebRTC/public/js/patientWebRTC.js
