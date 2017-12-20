@@ -29,4 +29,6 @@ ToDo:
 - test multiple cameras. 2 - 3
     - move the camera controls on patient page to the caretaker.
 - layout design 
+- fix sounds in patient
+- fix router password in arduino
 - Update the TUIO code with the updated features in the webRTC code
