@@ -9,9 +9,9 @@ The DRESS system can now:
 * read Fiducial markers using Reactivision (v. alpha)
 * send video feeds to the caretaker interface
 
-To begin, clone this repository. Open the MKR-1000 code to update the Arduino with your current WiFi Network ID & password (line 18-19)
+To begin, clone this repository. Open the MKR-1000 code to update the Arduino with your current WiFi Network ID & password (line 18-19). Upload the code to the arduino, and open the Serial monitor to obtain the IP address of your MKR1000. Copy the IP address and update the IP address on line 4 in the DRESS-withWebRTC2/server.js file
 
-Once the arduino has been updated, navigate to the directory and enter the following commands in your terminal:
+Once the arduino has been updated, navigate to the directory of the webRTC and enter the following commands in your terminal: (Make sure you have Node.js installed)
 
     npm install
     node server
